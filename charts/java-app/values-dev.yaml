@@ -1,0 +1,4 @@
+replicaCount: 1
+env: dev
+route:
+  enabled: false

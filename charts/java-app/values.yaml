@@ -1,0 +1,15 @@
+image:
+  repository: localhost:5000/java-app
+  tag: "latest" # Tekton skriver över detta
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+env: local
+
+service:
+  port: 8080
+
+route:
+  enabled: false
+  host: ""
