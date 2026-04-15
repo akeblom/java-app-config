@@ -1,6 +1,6 @@
 image:
   repository: localhost:5000/java-app
-  tag: "latest" # Tekton skriver över detta
+  tag: "6673121"
   pullPolicy: IfNotPresent
 
 replicaCount: 1
