@@ -1,6 +1,6 @@
 image:
   repository: localhost:5000/java-app
-  tag: "6673121"
+  tag: "2ae59e0"
   pullPolicy: IfNotPresent
 
 replicaCount: 1
