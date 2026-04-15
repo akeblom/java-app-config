@@ -1,4 +1,3 @@
-replicaCount: 1
-env: devvvv
+replicaCount: 2
 route:
   enabled: false
