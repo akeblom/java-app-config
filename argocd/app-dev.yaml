@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/akeblom/java-app-config
+    repoURL: https://github.com/akeblom/java-app-config.git
     targetRevision: HEAD
     path: charts/java-app
     helm:
@@ -19,3 +19,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
